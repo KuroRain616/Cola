@@ -84,7 +84,7 @@ public class Cola
      for(int i=FRENTE;i<FINAL-1;i++)
      
      {
-      COLA[i]=COLA[i+1];   
+      COLA[i]=COLA[i];   
      }
      FINAL--;
     }
